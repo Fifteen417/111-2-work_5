@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace work_5
 {
@@ -71,6 +72,44 @@ namespace work_5
         private void btn_leave_Click(object sender, RoutedEventArgs e)
         {
             Environment.Exit(0);
+        }
+
+        private void sliVL_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            MediaShow.Volume = sliVL.Value;
+            //txtFilePath.Text = MedShow.Volume.ToString();
+        }
+
+        TimeSpan TimePosition; // 宣告一個時間間格
+        DispatcherTimer timer = null; // 宣告一個「空的」計時器
+
+        private void MediaShow_MediaOpened(object sender, RoutedEventArgs e)
+        {
+            // 取得所開啟的影片時間長度
+            TimePosition = MediaShow.NaturalDuration.TimeSpan;
+            // 重新設定影片播放滑桿
+            sliPG.Minimum = 0;
+            sliPG.Maximum = TimePosition.TotalMilliseconds; //最大值設定為影片的總毫秒數
+
+            // 設定計時器
+            timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(1); // 這個計時器設定每一個刻度為1秒
+            timer.Tick += new EventHandler(timer_tick); //每一個時間刻度設定一個小程序timer_tick
+            timer.Start(); // 啟動這個計時器
+        }
+
+        private void timer_tick(object sender, EventArgs e)
+        {
+            // 小程序，更新目前影片播放進度
+            sliPG.Value = MediaShow.Position.TotalMilliseconds;
+        }
+
+        private void sliPG_PreviewMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            int SliderValue = (int)sliPG.Value; // 還記得轉型嗎？
+
+            TimeSpan ts = new TimeSpan(0, 0, 0, 0, SliderValue); //將滑桿的數值改變成時間間格的資料形式
+            MediaShow.Position = ts; // 調整影片播放進度到新的時間
         }
     }
 }

@@ -1,0 +1,16 @@
+C:\Users\vanne\Documents\111-2 視窗程式設計\作業\111-2-work_5\work_5\work_5\bin\Debug\work_5.exe.config
+C:\Users\vanne\Documents\111-2 視窗程式設計\作業\111-2-work_5\work_5\work_5\bin\Debug\work_5.exe
+C:\Users\vanne\Documents\111-2 視窗程式設計\作業\111-2-work_5\work_5\work_5\bin\Debug\work_5.pdb
+C:\Users\vanne\Documents\111-2 視窗程式設計\作業\111-2-work_5\work_5\work_5\obj\Debug\work_5.csproj.AssemblyReference.cache
+C:\Users\vanne\Documents\111-2 視窗程式設計\作業\111-2-work_5\work_5\work_5\obj\Debug\work_5.csproj.SuggestedBindingRedirects.cache
+C:\Users\vanne\Documents\111-2 視窗程式設計\作業\111-2-work_5\work_5\work_5\obj\Debug\MainWindow.g.cs
+C:\Users\vanne\Documents\111-2 視窗程式設計\作業\111-2-work_5\work_5\work_5\obj\Debug\App.g.cs
+C:\Users\vanne\Documents\111-2 視窗程式設計\作業\111-2-work_5\work_5\work_5\obj\Debug\work_5_MarkupCompile.cache
+C:\Users\vanne\Documents\111-2 視窗程式設計\作業\111-2-work_5\work_5\work_5\obj\Debug\work_5_MarkupCompile.lref
+C:\Users\vanne\Documents\111-2 視窗程式設計\作業\111-2-work_5\work_5\work_5\obj\Debug\MainWindow.baml
+C:\Users\vanne\Documents\111-2 視窗程式設計\作業\111-2-work_5\work_5\work_5\obj\Debug\work_5.g.resources
+C:\Users\vanne\Documents\111-2 視窗程式設計\作業\111-2-work_5\work_5\work_5\obj\Debug\work_5.Properties.Resources.resources
+C:\Users\vanne\Documents\111-2 視窗程式設計\作業\111-2-work_5\work_5\work_5\obj\Debug\work_5.csproj.GenerateResource.cache
+C:\Users\vanne\Documents\111-2 視窗程式設計\作業\111-2-work_5\work_5\work_5\obj\Debug\work_5.csproj.CoreCompileInputs.cache
+C:\Users\vanne\Documents\111-2 視窗程式設計\作業\111-2-work_5\work_5\work_5\obj\Debug\work_5.exe
+C:\Users\vanne\Documents\111-2 視窗程式設計\作業\111-2-work_5\work_5\work_5\obj\Debug\work_5.pdb

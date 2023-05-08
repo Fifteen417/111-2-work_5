@@ -52,6 +52,26 @@ namespace work_5
                 MediaShow.LoadedBehavior = MediaState.Play;
             }
         }
+
+        private void btn_play_Click(object sender, RoutedEventArgs e)
+        {
+            MediaShow.LoadedBehavior = MediaState.Play;
+        }
+
+        private void btn_pause_Click(object sender, RoutedEventArgs e)
+        {
+            MediaShow.LoadedBehavior = MediaState.Pause;
+        }
+
+        private void btn_stop_Click(object sender, RoutedEventArgs e)
+        {
+            MediaShow.LoadedBehavior = MediaState.Stop;
+        }
+
+        private void btn_leave_Click(object sender, RoutedEventArgs e)
+        {
+            Environment.Exit(0);
+        }
     }
 }
 

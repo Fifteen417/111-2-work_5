@@ -14,10 +14,10 @@
             </LinearGradientBrush>
         </Grid.Background>
         <MediaElement x:Name="MediaShow" Margin="53,46,53,45"/>
-        <Button x:Name="btn_play" Content="Play" HorizontalAlignment="Left" Height="22" Margin="53,402,0,0" VerticalAlignment="Top" Width="68"/>
-        <Button x:Name="btn_pause" Content="Pause" HorizontalAlignment="Left" Height="22" Margin="143,402,0,0" VerticalAlignment="Top" Width="68"/>
-        <Button x:Name="btn_stop" Content="Stop" HorizontalAlignment="Left" Height="22" Margin="234,402,0,0" VerticalAlignment="Top" Width="68"/>
-        <Button x:Name="btn_leave" Content="Leave" HorizontalAlignment="Left" Height="22" Margin="324,402,0,0" VerticalAlignment="Top" Width="68"/>
+        <Button x:Name="btn_play" Content="Play" HorizontalAlignment="Left" Height="22" Margin="53,402,0,0" VerticalAlignment="Top" Width="68" Click="btn_play_Click"/>
+        <Button x:Name="btn_pause" Content="Pause" HorizontalAlignment="Left" Height="22" Margin="143,402,0,0" VerticalAlignment="Top" Width="68" Click="btn_pause_Click"/>
+        <Button x:Name="btn_stop" Content="Stop" HorizontalAlignment="Left" Height="22" Margin="234,402,0,0" VerticalAlignment="Top" Width="68" Click="btn_stop_Click"/>
+        <Button x:Name="btn_leave" Content="Exit" HorizontalAlignment="Left" Height="22" Margin="324,402,0,0" VerticalAlignment="Top" Width="68" Click="btn_leave_Click"/>
         <TextBox x:Name="txt_FL" HorizontalAlignment="Left" Height="24" Margin="53,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="588"/>
         <Button x:Name="btn_OF" Content="Open File" HorizontalAlignment="Left" Height="24" Margin="646,10,0,0" VerticalAlignment="Top" Width="101" Click="btn_OF_Click"/>
 

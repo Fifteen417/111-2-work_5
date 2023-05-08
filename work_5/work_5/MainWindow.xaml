@@ -22,6 +22,7 @@
         <Button x:Name="btn_OF" Content="Open File" HorizontalAlignment="Left" Height="24" Margin="646,10,0,0" VerticalAlignment="Top" Width="101" Click="btn_OF_Click"/>
         <Slider x:Name="sliPG" HorizontalAlignment="Center" Height="19" Margin="0,378,0,0" VerticalAlignment="Top" Width="694" PreviewMouseLeftButtonUp="sliPG_PreviewMouseLeftButtonUp"/>
         <Slider x:Name="sliVL" HorizontalAlignment="Left" Height="19" Margin="544,402,0,0" VerticalAlignment="Top" Width="203" Value="0.5" LargeChange="0.5" Maximum="1" TickFrequency="0.01" ValueChanged="sliVL_ValueChanged"/>
+        <TextBox x:Name="txt_timer" HorizontalAlignment="Left" Height="22" Margin="415,402,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="124"/>
 
     </Grid>
 </Window>
